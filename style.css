@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.cabecalho {
+    width: 200px;
+    height: 700px;
+    background-color: rgb(209, 37, 37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+.imagemEu {
+    border: 6px solid rgba(126, 14, 14, 0.979);
+    margin-top: 200px;
+    width: 120px;
+    border-radius: 50%;
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.cabecalho > a:hover {
+    background-color: rgb(172, 27, 27);
+}
+.conteudo {
+    padding-left: 50px;
+    padding-right: 300px;
+}
+.nome {
+    color: rgb(209, 37, 37);
+}
+.email {
+    color: rgb(209, 37, 37);
+    text-transform: lowercase;
+}
+.sobre {
+    margin-top: 40px;
+}
+.linkedin, .github, .twitter, .facebook {
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.icon {
+    margin-top: 30px;   
+}
+.icon > a{
+    color: black;
+}
